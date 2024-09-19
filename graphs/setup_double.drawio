@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-05-26T19:58:08.793Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="k0PpqYBf4biycKDmL64d" version="24.4.8" type="device">
+  <diagram name="Seite-1" id="xMxTtuJEymifUSc2Zc20">
+    <mxGraphModel dx="1010" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="310" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-3" target="YKUKUDlaDhvNmrl65wlO-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-3" value="Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="585" width="730" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-4" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="47.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="220" width="310" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-6" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="47.33" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-7" target="YKUKUDlaDhvNmrl65wlO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-7" value="prometheus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="161.34" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-9" value="grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="161.34" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-11" target="YKUKUDlaDhvNmrl65wlO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-11" value="scaphandre" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/energy-and-power-glyph-24-px/24/Electrical_plug_plug_plug_connector_plug_in_power_plug_2-128.png;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-15" target="YKUKUDlaDhvNmrl65wlO-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="231.33999999999992" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-15" target="YKUKUDlaDhvNmrl65wlO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-15" value="power_plug_monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="161.34" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=6;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-12" target="YKUKUDlaDhvNmrl65wlO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-23" value="Docker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YKUKUDlaDhvNmrl65wlO-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.788;exitY=0.024;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="YKUKUDlaDhvNmrl65wlO-3" target="YKUKUDlaDhvNmrl65wlO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

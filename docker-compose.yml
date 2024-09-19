@@ -1,0 +1,35 @@
+version: '3.7'
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+  prometheus-push:
+    image: prom/pushgateway:latest
+    ports:
+      - "9091:9091"
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+
+  plug_monit:
+    build:
+      context: .
+      dockerfile: ./src/docker/Monitor.Dockerfile
+    ports:
+      - "8000:8000"
+    network_mode: "host"
+    depends_on:
+      - prometheus
+
+volumes:
+  prometheus_data: {}

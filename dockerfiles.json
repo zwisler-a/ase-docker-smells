@@ -1,0 +1,1527 @@
+{
+  "pytorch/pytorch": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/pytorch/pytorch",
+      "smells": [
+        "DL3027",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetUpdatePrecedesInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "nvm-sh/nvm": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/nvm-sh/nvm",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3046",
+        "curlUseFlagF",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "ChatGPTNextWeb/ChatGPT-Next-Web": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
+      "smells": [
+        "apkAddUseNoCache",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "moby/moby": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/moby/moby",
+      "smells": [
+        "DL3020",
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "DL3046",
+        "configureShouldUseBuildFlag",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "base-org/node": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/base-org/node",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "rustdesk/rustdesk": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "smells": [
+        "DL3002",
+        "DL3004",
+        "DL3027",
+        "DL3027",
+        "DL3046",
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "ageitgey/face_recognition": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ageitgey/face_recognition",
+      "smells": [
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.gpu",
+      "url": "https://github.com/ageitgey/face_recognition",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "etcd-io/etcd": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/etcd-io/etcd",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3020",
+        "DL3029"
+      ]
+    }
+  ],
+  "ethereum/go-ethereum": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "smells": [
+        "DL3020"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.alltools",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "smells": [
+        "DL3020"
+      ]
+    }
+  ],
+  "Z4nzu/hackingtool": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "acmesh-official/acme.sh": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/acmesh-official/acme.sh",
+      "smells": [
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "sickcodes/Docker-OSX": [
+    {
+      "dockerfile": "Dockerfile.auto",
+      "url": "https://github.com/sickcodes/Docker-OSX",
+      "smells": [
+        "DL3002"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.naked",
+      "url": "https://github.com/sickcodes/Docker-OSX",
+      "smells": [
+        "DL3002"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.naked-auto",
+      "url": "https://github.com/sickcodes/Docker-OSX",
+      "smells": [
+        "DL3002"
+      ]
+    }
+  ],
+  "apache/airflow": [
+    {
+      "dockerfile": "Dockerfile.ci",
+      "url": "https://github.com/apache/airflow",
+      "smells": [
+        "curlUseFlagF"
+      ]
+    }
+  ],
+  "nativefier/nativefier": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/nativefier/nativefier",
+      "smells": [
+        "DL3029",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "freeCodeCamp/devdocs": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/freeCodeCamp/devdocs",
+      "smells": [
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "dani-garcia/vaultwarden": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "smells": [
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "testerSunshine/12306": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/testerSunshine/12306",
+      "smells": [
+        "DL3020"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile37",
+      "url": "https://github.com/testerSunshine/12306",
+      "smells": [
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "docker/compose": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/docker/compose",
+      "smells": [
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "DL3029"
+      ]
+    }
+  ],
+  "harness/gitness": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/harness/gitness",
+      "smells": [
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "DL3029",
+        "tarSomethingRmTheSomething",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "ccxt/ccxt": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ccxt/ccxt",
+      "smells": [
+        "DL3020",
+        "npmCacheCleanAfterInstall",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "gpgUseBatchFlag",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "Chanzhaoyu/chatgpt-web": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Chanzhaoyu/chatgpt-web",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "coqui-ai/TTS": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/coqui-ai/TTS",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetUpdatePrecedesInstall"
+      ]
+    }
+  ],
+  "zsh-users/zsh-autosuggestions": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/zsh-users/zsh-autosuggestions",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3020",
+        "DL3020"
+      ]
+    }
+  ],
+  "jqlang/jq": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/jqlang/jq",
+      "smells": [
+        "configureShouldUseBuildFlag",
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "Pythagora-io/gpt-pilot": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Pythagora-io/gpt-pilot",
+      "smells": [
+        "curlUseFlagF",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "chatchat-space/Langchain-Chatchat": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/chatchat-space/Langchain-Chatchat",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "remoteintech/remote-jobs": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/remoteintech/remote-jobs",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "maybe-finance/maybe": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/maybe-finance/maybe",
+      "smells": [
+        "DL3046",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "dokku/dokku": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dokku/dokku",
+      "smells": [
+        "curlUseFlagF",
+        "gpgUseBatchFlag",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "gchq/CyberChef": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/gchq/CyberChef",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "freqtrade/freqtrade": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/freqtrade/freqtrade",
+      "smells": [
+        "DL3046",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "derailed/k9s": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/derailed/k9s",
+      "smells": [
+        "curlUseFlagF"
+      ]
+    }
+  ],
+  "ossrs/srs": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ossrs/srs",
+      "smells": [
+        "configureShouldUseBuildFlag"
+      ]
+    }
+  ],
+  "open-webui/open-webui": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/open-webui/open-webui",
+      "smells": [
+        "DL3029",
+        "npmCacheCleanAfterInstall",
+        "pipUseNoCacheDir",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "hiyouga/LLaMA-Factory": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "conwnet/github1s": [
+    {
+      "dockerfile": ".gitpod.Dockerfile",
+      "url": "https://github.com/conwnet/github1s",
+      "smells": [
+        "DL3004",
+        "DL3004",
+        "DL3004",
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "rancher/rancher": [
+    {
+      "dockerfile": "Dockerfile.dapper",
+      "url": "https://github.com/rancher/rancher",
+      "smells": [
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagL",
+        "curlUseFlagL",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "DesignPatternsPHP/DesignPatternsPHP": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/DesignPatternsPHP/DesignPatternsPHP",
+      "smells": [
+        "DL3020",
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "openai/chatgpt-retrieval-plugin": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/openai/chatgpt-retrieval-plugin",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "parse-community/parse-server": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/parse-community/parse-server",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "jhao104/proxy_pool": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/jhao104/proxy_pool",
+      "smells": [
+        "apkAddUseNoCache",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "mattermost/focalboard": [
+    {
+      "dockerfile": "Dockerfile.build",
+      "url": "https://github.com/mattermost/focalboard",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "umami-software/umami": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/umami-software/umami",
+      "smells": [
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "valeriansaliou/sonic": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/valeriansaliou/sonic",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "PromtEngineer/localGPT": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/PromtEngineer/localGPT",
+      "smells": [
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "wekan/wekan": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/wekan/wekan",
+      "smells": [
+        "DL3029"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.arm64v8",
+      "url": "https://github.com/wekan/wekan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3029",
+        "DL3046",
+        "tarSomethingRmTheSomething",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.s390x",
+      "url": "https://github.com/wekan/wekan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3029",
+        "DL3046",
+        "tarSomethingRmTheSomething",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "janhq/jan": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/janhq/jan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.gpu",
+      "url": "https://github.com/janhq/jan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "realm/SwiftLint": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/realm/SwiftLint",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "tloen/alpaca-lora": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/tloen/alpaca-lora",
+      "smells": [
+        "DL3027",
+        "curlUseFlagF",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "RasaHQ/rasa": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/RasaHQ/rasa",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "BuilderIO/gpt-crawler": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/BuilderIO/gpt-crawler",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "statsd/statsd": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/statsd/statsd",
+      "smells": [
+        "mkdirUsrSrcThenRemove"
+      ]
+    }
+  ],
+  "mlflow/mlflow": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/mlflow/mlflow",
+      "smells": [
+        "DL3046",
+        "curlUseFlagF",
+        "npmCacheCleanAfterInstall",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "nondanee/UnblockNeteaseMusic": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/nondanee/UnblockNeteaseMusic",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "HumanSignal/label-studio": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/HumanSignal/label-studio",
+      "smells": [
+        "DL3029",
+        "curlUseFlagF",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.redhat",
+      "url": "https://github.com/HumanSignal/label-studio",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "pipUseNoCacheDir",
+        "yarnCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "CorentinTh/it-tools": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/CorentinTh/it-tools",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "browsh-org/browsh": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/browsh-org/browsh",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3020",
+        "DL3020",
+        "DL3020",
+        "DL3046",
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "JetBrains/intellij-community": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/JetBrains/intellij-community",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "MobSF/Mobile-Security-Framework-MobSF": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "alievk/avatarify-python": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/alievk/avatarify-python",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "ether/etherpad-lite": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ether/etherpad-lite",
+      "smells": [
+        "DL3046",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "verdaccio/verdaccio": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/verdaccio/verdaccio",
+      "smells": [
+        "DL3020",
+        "DL3029",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "kubernetes-sigs/kubespray": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/kubernetes-sigs/kubespray",
+      "smells": [
+        "curlUseFlagF",
+        "curlUseFlagF"
+      ]
+    },
+    {
+      "dockerfile": "pipeline.Dockerfile",
+      "url": "https://github.com/kubernetes-sigs/kubespray",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "sha256sumEchoOneSpaces",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "ginuerzh/gost": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ginuerzh/gost",
+      "smells": [
+        "DL3020",
+        "DL3029"
+      ]
+    }
+  ],
+  "dutchcoders/transfer.sh": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dutchcoders/transfer.sh",
+      "smells": [
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "ramitsurana/awesome-kubernetes": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ramitsurana/awesome-kubernetes",
+      "smells": [
+        "DL3004",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "tinygo-org/tinygo": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/tinygo-org/tinygo",
+      "smells": [
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "microsoft/Bringing-Old-Photos-Back-to-Life": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life",
+      "smells": [
+        "DL3020",
+        "DL3027",
+        "DL3027",
+        "wgetUseHttpsUrl",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "argoproj/argo-workflows": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/argoproj/argo-workflows",
+      "smells": [
+        "yarnCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "dockur/windows": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dockur/windows",
+      "smells": [
+        "DL3020",
+        "DL3020"
+      ]
+    }
+  ],
+  "AliaksandrSiarohin/first-order-model": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/AliaksandrSiarohin/first-order-model",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "fathyb/carbonyl": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/fathyb/carbonyl",
+      "smells": [
+        "DL3046",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "NodeBB/NodeBB": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/NodeBB/NodeBB",
+      "smells": [
+        "DL3046",
+        "DL3046",
+        "npmCacheCleanAfterInstall",
+        "mkdirUsrSrcThenRemove",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    },
+    {
+      "dockerfile": "dev.Dockerfile",
+      "url": "https://github.com/NodeBB/NodeBB",
+      "smells": [
+        "DL3046",
+        "DL3046",
+        "DL3046",
+        "npmCacheCleanAfterInstall",
+        "mkdirUsrSrcThenRemove",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "mame/quine-relay": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/mame/quine-relay",
+      "smells": [
+        "DL3020",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "Intervention/image": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Intervention/image",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "emqx/emqx": [
+    {
+      "dockerfile": "Dockerfile.ubuntu20.04.runner",
+      "url": "https://github.com/emqx/emqx",
+      "smells": [
+        "DL3046"
+      ]
+    }
+  ],
+  "dense-analysis/ale": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dense-analysis/ale",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "mozilla/send": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/mozilla/send",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "cocktailpeanut/dalai": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/cocktailpeanut/dalai",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "ZLMediaKit/ZLMediaKit": [
+    {
+      "dockerfile": "dockerfile",
+      "url": "https://github.com/ZLMediaKit/ZLMediaKit",
+      "smells": [
+        "configureShouldUseBuildFlag",
+        "tarSomethingRmTheSomething",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "idank/explainshell": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/idank/explainshell",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "fortra/impacket": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/fortra/impacket",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "apache/predictionio": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/apache/predictionio",
+      "smells": [
+        "DL3020"
+      ]
+    }
+  ],
+  "postmanlabs/httpbin": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/postmanlabs/httpbin",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3027",
+        "DL3027",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "caprover/caprover": [
+    {
+      "dockerfile": "dockerfile-captain.debug",
+      "url": "https://github.com/caprover/caprover",
+      "smells": [
+        "mkdirUsrSrcThenRemove",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ]
+    },
+    {
+      "dockerfile": "dockerfile-captain.dev",
+      "url": "https://github.com/caprover/caprover",
+      "smells": [
+        "DL3020",
+        "curlUseFlagF",
+        "mkdirUsrSrcThenRemove",
+        "curlUseFlagL",
+        "yarnCacheCleanAfterInstall"
+      ]
+    },
+    {
+      "dockerfile": "dockerfile-captain.edge",
+      "url": "https://github.com/caprover/caprover",
+      "smells": [
+        "DL3020"
+      ]
+    }
+  ],
+  "sqshq/sampler": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/sqshq/sampler",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "jpillora/chisel": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/jpillora/chisel",
+      "smells": [
+        "DL3020",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "alex000kim/nsfw_data_scraper": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/alex000kim/nsfw_data_scraper",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "wg-easy/wg-easy": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/wg-easy/wg-easy",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "threat9/routersploit": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/threat9/routersploit",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "coredns/coredns": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/coredns/coredns",
+      "smells": [
+        "DL3029",
+        "DL3029",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "dbcli/pgcli": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/dbcli/pgcli",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "opencontainers/runc": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/opencontainers/runc",
+      "smells": [
+        "DL3046",
+        "gpgUseBatchFlag",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ],
+  "maurosoria/dirsearch": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/maurosoria/dirsearch",
+      "smells": [
+        "DL3020",
+        "pipUseNoCacheDir",
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "librespeed/speedtest": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/librespeed/speedtest",
+      "smells": [
+        "aptGetInstallUseNoRec"
+      ]
+    }
+  ],
+  "keen/dashboards": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/keen/dashboards",
+      "smells": [
+        "DL3020"
+      ]
+    }
+  ],
+  "mikefarah/yq": [
+    {
+      "dockerfile": "Dockerfile.dev",
+      "url": "https://github.com/mikefarah/yq",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "openalpr/openalpr": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/openalpr/openalpr",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "go-admin-team/go-admin": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/go-admin-team/go-admin",
+      "smells": [
+        "apkAddUseNoCache"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfilebak",
+      "url": "https://github.com/go-admin-team/go-admin",
+      "smells": [
+        "apkAddUseNoCache"
+      ]
+    }
+  ],
+  "h2oai/h2ogpt": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/h2oai/h2ogpt",
+      "smells": [
+        "DL3046"
+      ]
+    }
+  ],
+  "gophish/gophish": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/gophish/gophish",
+      "smells": [
+        "DL3046",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "rushter/MLAlgorithms": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/rushter/MLAlgorithms",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "PatrickJS/PatrickJS-starter": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/PatrickJS/PatrickJS-starter",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile-dev",
+      "url": "https://github.com/PatrickJS/PatrickJS-starter",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ]
+    }
+  ],
+  "Manisso/fsociety": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Manisso/fsociety",
+      "smells": [
+        "pipUseNoCacheDir",
+        "aptGetInstallThenRemoveAptLists"
+      ]
+    }
+  ],
+  "Y2Z/monolith": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Y2Z/monolith",
+      "smells": [
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ]
+    }
+  ],
+  "swaggo/swag": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/swaggo/swag",
+      "smells": [
+        "DL3029",
+        "DL3029"
+      ]
+    }
+  ],
+  "sfyc23/EverydayWechat": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/sfyc23/EverydayWechat",
+      "smells": [
+        "pipUseNoCacheDir"
+      ]
+    }
+  ],
+  "jeessy2/ddns-go": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/jeessy2/ddns-go",
+      "smells": [
+        "DL3029"
+      ]
+    }
+  ],
+  "snipe/snipe-it": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/snipe/snipe-it",
+      "smells": [
+        "DL3002",
+        "DL3046",
+        "curlUseFlagF"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.alpine",
+      "url": "https://github.com/snipe/snipe-it",
+      "smells": [
+        "DL3002"
+      ]
+    }
+  ],
+  "v2rayA/v2rayA": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/v2rayA/v2rayA",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3020"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.gui",
+      "url": "https://github.com/v2rayA/v2rayA",
+      "smells": [
+        "DL3020"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.nightly",
+      "url": "https://github.com/v2rayA/v2rayA",
+      "smells": [
+        "DL3020",
+        "DL3020",
+        "DL3020"
+      ]
+    }
+  ],
+  "ziahamza/webui-aria2": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ziahamza/webui-aria2",
+      "smells": [
+        "DL3020",
+        "DL3046",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "tarSomethingRmTheSomething",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL",
+        "curlUseFlagL"
+      ]
+    },
+    {
+      "dockerfile": "Dockerfile.arm32v7",
+      "url": "https://github.com/ziahamza/webui-aria2",
+      "smells": [
+        "DL3020",
+        "DL3046",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "configureShouldUseBuildFlag",
+        "tarSomethingRmTheSomething",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL",
+        "ruleMoreThanOneInstall"
+      ]
+    }
+  ]
+}

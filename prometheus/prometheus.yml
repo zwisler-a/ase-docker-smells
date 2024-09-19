@@ -1,0 +1,14 @@
+global:
+  scrape_interval: 500ms
+
+scrape_configs:
+  - job_name: 'plug_monitor'
+    static_configs:
+      - targets: ['plug_monit:8000']
+  - job_name: 'scaphandre'
+    static_configs:
+      - targets: [ 'zwisler:8080' ]
+  - job_name: 'push-gateway'
+    honor_labels: true
+    static_configs:
+      - targets: ['prometheus-push:9091']

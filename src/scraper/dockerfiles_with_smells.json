@@ -1,0 +1,410 @@
+{
+  "ChatGPTNextWeb/ChatGPT-Next-Web": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
+      "smells": [
+        "apkAddUseNoCache",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 182791606,
+      "repairedImageSize": 180475504
+    }
+  ],
+  "rustdesk/rustdesk": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "smells": [
+        "DL3002",
+        "DL3004",
+        "DL3027",
+        "DL3027",
+        "DL3046",
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ],
+      "originalImageSize": 3122528573,
+      "repairedImageSize": 3122204522
+    }
+  ],
+  "ageitgey/face_recognition": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ageitgey/face_recognition",
+      "smells": [
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetUpdatePrecedesInstall",
+        "aptGetInstallThenRemoveAptLists"
+      ],
+      "originalImageSize": 2239181032,
+      "repairedImageSize": 1647125359
+    }
+  ],
+  "ethereum/go-ethereum": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "smells": [
+        "DL3020"
+      ],
+      "originalImageSize": 71568729,
+      "repairedImageSize": 71568729
+    },
+    {
+      "dockerfile": "Dockerfile.alltools",
+      "url": "https://github.com/ethereum/go-ethereum",
+      "smells": [
+        "DL3020"
+      ],
+      "originalImageSize": 415596262,
+      "repairedImageSize": 415596262
+    }
+  ],
+  "Z4nzu/hackingtool": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ],
+      "originalImageSize": 778739093,
+      "repairedImageSize": 394111472
+    }
+  ],
+  "acmesh-official/acme.sh": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/acmesh-official/acme.sh",
+      "smells": [
+        "curlUseFlagF",
+        "curlUseFlagL"
+      ],
+      "originalImageSize": 42918234,
+      "repairedImageSize": 42918239
+    }
+  ],
+  "freeCodeCamp/devdocs": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/freeCodeCamp/devdocs",
+      "smells": [
+        "aptGetInstallUseNoRec"
+      ],
+      "originalImageSize": 13952292029,
+      "repairedImageSize": 13936871089
+    }
+  ],
+  "Chanzhaoyu/chatgpt-web": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Chanzhaoyu/chatgpt-web",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 208189771,
+      "repairedImageSize": 196649215
+    }
+  ],
+  "coqui-ai/TTS": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/coqui-ai/TTS",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir",
+        "aptGetUpdatePrecedesInstall"
+      ],
+      "originalImageSize": 11983845363,
+      "repairedImageSize": 9034719966
+    }
+  ],
+  "Pythagora-io/gpt-pilot": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/Pythagora-io/gpt-pilot",
+      "smells": [
+        "curlUseFlagF",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL"
+      ],
+      "originalImageSize": 1340789508,
+      "repairedImageSize": 1340789552
+    }
+  ],
+  "remoteintech/remote-jobs": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/remoteintech/remote-jobs",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 174189282,
+      "repairedImageSize": 169677628
+    }
+  ],
+  "gchq/CyberChef": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/gchq/CyberChef",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 134486474,
+      "repairedImageSize": 134486474
+    }
+  ],
+  "freqtrade/freqtrade": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/freqtrade/freqtrade",
+      "smells": [
+        "DL3046",
+        "pipUseNoCacheDir",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallThenRemoveAptLists",
+        "aptGetInstallThenRemoveAptLists",
+        "ruleMoreThanOneInstall"
+      ],
+      "originalImageSize": 1110353062,
+      "repairedImageSize": 1040835587
+    }
+  ],
+  "derailed/k9s": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/derailed/k9s",
+      "smells": [
+        "curlUseFlagF"
+      ],
+      "originalImageSize": 149700958,
+      "repairedImageSize": 149700958
+    }
+  ],
+  "hiyouga/LLaMA-Factory": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/hiyouga/LLaMA-Factory",
+      "smells": [
+        "pipUseNoCacheDir",
+        "pipUseNoCacheDir"
+      ],
+      "originalImageSize": 22666213844,
+      "repairedImageSize": 22666213844
+    }
+  ],
+  "DesignPatternsPHP/DesignPatternsPHP": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/DesignPatternsPHP/DesignPatternsPHP",
+      "smells": [
+        "DL3020",
+        "pipUseNoCacheDir"
+      ],
+      "originalImageSize": 193718624,
+      "repairedImageSize": 193718624
+    }
+  ],
+  "openai/chatgpt-retrieval-plugin": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/openai/chatgpt-retrieval-plugin",
+      "smells": [
+        "pipUseNoCacheDir"
+      ],
+      "originalImageSize": 1738721532,
+      "repairedImageSize": 1738721532
+    }
+  ],
+  "parse-community/parse-server": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/parse-community/parse-server",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 259198128,
+      "repairedImageSize": 259198128
+    }
+  ],
+  "jhao104/proxy_pool": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/jhao104/proxy_pool",
+      "smells": [
+        "apkAddUseNoCache",
+        "apkAddUseNoCache"
+      ],
+      "originalImageSize": 91706025,
+      "repairedImageSize": 89408244
+    }
+  ],
+  "mattermost/focalboard": [
+    {
+      "dockerfile": "Dockerfile.build",
+      "url": "https://github.com/mattermost/focalboard",
+      "smells": [
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 36474210,
+      "repairedImageSize": 36474316
+    }
+  ],
+  "janhq/jan": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/janhq/jan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 5978783187,
+      "repairedImageSize": 3674936034
+    },
+    {
+      "dockerfile": "Dockerfile.gpu",
+      "url": "https://github.com/janhq/jan",
+      "smells": [
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "DL3027",
+        "curlUseFlagF",
+        "curlUseFlagF",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall",
+        "yarnCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 7147577661,
+      "repairedImageSize": 4834456589
+    }
+  ],
+  "realm/SwiftLint": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/realm/SwiftLint",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall"
+      ],
+      "originalImageSize": 470399316,
+      "repairedImageSize": 467667332
+    }
+  ],
+  "tloen/alpaca-lora": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/tloen/alpaca-lora",
+      "smells": [
+        "DL3027",
+        "curlUseFlagF",
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "curlUseFlagL",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall",
+        "ruleMoreThanOneInstall"
+      ],
+      "originalImageSize": 21790749893,
+      "repairedImageSize": 21777104820
+    }
+  ],
+  "BuilderIO/gpt-crawler": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/BuilderIO/gpt-crawler",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 3241774642,
+      "repairedImageSize": 3166993629
+    }
+  ],
+  "statsd/statsd": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/statsd/statsd",
+      "smells": [
+        "mkdirUsrSrcThenRemove"
+      ],
+      "originalImageSize": 1219128901,
+      "repairedImageSize": 1219128901
+    }
+  ],
+  "nondanee/UnblockNeteaseMusic": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/nondanee/UnblockNeteaseMusic",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "apkAddUseNoCache"
+      ],
+      "originalImageSize": 73603265,
+      "repairedImageSize": 70815083
+    }
+  ],
+  "CorentinTh/it-tools": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/CorentinTh/it-tools",
+      "smells": [
+        "npmCacheCleanAfterInstall",
+        "npmCacheCleanAfterInstall"
+      ],
+      "originalImageSize": 60898169,
+      "repairedImageSize": 60898169
+    }
+  ],
+  "JetBrains/intellij-community": [
+    {
+      "dockerfile": "Dockerfile",
+      "url": "https://github.com/JetBrains/intellij-community",
+      "smells": [
+        "aptGetInstallUseNoRec",
+        "aptGetInstallUseNoRec",
+        "ruleMoreThanOneInstall"
+      ],
+      "originalImageSize": 722547655,
+      "repairedImageSize": 559955147
+    }
+  ]
+}

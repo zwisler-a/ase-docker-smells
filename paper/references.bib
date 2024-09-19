@@ -1,0 +1,132 @@
+@inproceedings{durieuxEmpericalStudy,
+author = {Durieux, Thomas},
+title = {Empirical Study of the Docker Smells Impact on the Image Size},
+year = {2024},
+isbn = {9798400702174},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597503.3639143},
+doi = {10.1145/3597503.3639143},
+abstract = {Docker, a widely adopted tool for packaging and deploying applications leverages Dockerfiles to build images. However, creating an optimal Dockerfile can be challenging, often leading to "Docker smells" or deviations from best practices. This paper presents a study of the impact of 14 Docker smells on the size of Docker images.To assess the size impact of Docker smells, we identified and repaired 16 145 Docker smells from 11 313 open-source Dockerfiles. We observe that the smells result in an average increase of 48.06MB (4.6 \%) per smelly image. Depending on the smell type, the size increase can be up to 10 \%, and for some specific cases, the smells can represent 89 \% of the image size. Interestingly, the most impactful smells are related to package managers which are commonly encountered and are relatively easy to fix.To collect the perspective of the developers regarding the size impact of the Docker smells, we submitted 34 pull requests that repair the smells and we reported their impact on the Docker image to the developers. 26/34 (76.5 \%) of the pull requests have been merged and they contribute to a saving of 3.46 GB (16.4 \%). The developer's comments demonstrate a positive interest in addressing those Docker smells even when the pull requests have been rejected.},
+booktitle = {Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+articleno = {208},
+numpages = {12},
+location = {Lisbon, Portugal},
+series = {ICSE '24}
+}
+@INPROCEEDINGS{mehulMonitoringEnergy,
+  author={Warade, Mehul and Lee, Kevin and Ranaweera, Chathurika and Schneider, Jean-Guy},
+  booktitle={2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)}, 
+  title={Monitoring the Energy Consumption of Docker Containers}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1703-1710},
+  keywords={Energy consumption;Costs;Energy measurement;Containers;Hardware;Energy efficiency;Software;Virtualization;Containers;Docker;Energy},
+  doi={10.1109/COMPSAC57700.2023.00263}}
+@misc{durieux2023parfumdetectionautomaticrepair,
+      title={Parfum: Detection and Automatic Repair of Dockerfile Smells}, 
+      author={Thomas Durieux},
+      year={2023},
+      eprint={2302.01707},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2302.01707}, 
+}
+
+
+@article{merkel2014docker,
+  title={Docker: lightweight linux containers for consistent development and deployment},
+  author={Merkel, Dirk},
+  journal={Linux journal},
+  number={239},
+  year={2014},
+  publisher={Belltown Media}
+}
+
+@inproceedings{zhang2020empirical,
+  title={One Size Does Not Fit All: An Empirical Study of Containerized Continuous Deployment Workflows},
+  author={Zhang, Y., Nagappan, N., Zimmermann, T. and Murphy, B.},
+  booktitle={2020 IEEE/ACM 42nd International Conference on Software Engineering (ICSE)},
+  pages={145-156},
+  year={2020},
+  organization={IEEE}
+}
+
+@article{baliga2011green,
+  title={Green cloud computing: Balancing energy in processing, storage, and transport},
+  author={Baliga, Jayant and Ayre, Robert and Hinton, Kerry and Tucker, Rodney S},
+  journal={Proceedings of the IEEE},
+  volume={99},
+  number={1},
+  pages={149--167},
+  year={2011},
+  publisher={IEEE}
+}
+
+@techreport{koomey2011growth,
+  title={Growth in data center electricity use 2005 to 2010},
+  author={Koomey, Jonathan G},
+  year={2011},
+  institution={Oakland, CA: Analytics Press}
+}
+
+
+@inproceedings{cito2017empirical,
+  title={An empirical analysis of the Docker container ecosystem on GitHub},
+  author={Cito, J{\"u}rgen and Leitner, Philipp and Fritz, Thomas and Gall, Harald C},
+  booktitle={2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)},
+  pages={323--333},
+  year={2017},
+  organization={IEEE}
+}
+
+@INPROCEEDINGS{morabito2017power,
+  author={Morabito, Roberto},
+  booktitle={2015 IEEE/ACM 8th International Conference on Utility and Cloud Computing (UCC)}, 
+  title={Power Consumption of Virtualization Technologies: An Empirical Investigation}, 
+  year={2015},
+  volume={},
+  number={},
+  pages={522-527},
+  keywords={Virtualization;Containers;Virtual machine monitors;Power demand;Hardware;Servers;Operating systems;Cloud Computing;power consumption;Performance;virtualization;hypervisor;KVM;Xen;container;Docker;LXC},
+  doi={10.1109/UCC.2015.93}}
+
+@misc{scaphandre,
+	author = {},
+	title = {{I}ntroduction - {S}caphandre documentation --- hubblo-org.github.io},
+	howpublished = {\url{https://hubblo-org.github.io/scaphandre-documentation/index.html}},
+	year = {},
+	note = {[Accessed 02-07-2024]},
+}
+@article{mills1989accuracy,
+  title={On the accuracy and stablility of clocks synchronized by the network time protocol in the internet system},
+  author={Mills, David L},
+  journal={ACM SIGCOMM Computer Communication Review},
+  volume={20},
+  number={1},
+  pages={65--75},
+  year={1989},
+  publisher={ACM New York, NY, USA}
+}
+@misc{jasonacox/tinytuya, title={jasonacox/tinytuya}, url={https://github.com/jasonacox/tinytuya} }
+
+@article{kahnRapl,
+author = {Khan, Kashif Nizam and Hirki, Mikael and Niemi, Tapio and Nurminen, Jukka K. and Ou, Zhonghong},
+title = {RAPL in Action: Experiences in Using RAPL for Power Measurements},
+year = {2018},
+issue_date = {June 2018},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {3},
+number = {2},
+issn = {2376-3639},
+url = {https://doi.org/10.1145/3177754},
+doi = {10.1145/3177754},
+abstract = {To improve energy efficiency and comply with the power budgets, it is important to be able to measure the power consumption of cloud computing servers. Intel’s Running Average Power Limit (RAPL) interface is a powerful tool for this purpose. RAPL provides power limiting features and accurate energy readings for CPUs and DRAM, which are easily accessible through different interfaces on large distributed computing systems. Since its introduction, RAPL has been used extensively in power measurement and modeling. However, the advantages and disadvantages of RAPL have not been well investigated yet. To fill this gap, we conduct a series of experiments to disclose the underlying strengths and weaknesses of the RAPL interface by using both customized microbenchmarks and three well-known application level benchmarks: Stream, Stress-ng, and ParFullCMS. Moreover, to make the analysis as realistic as possible, we leverage two production-level power measurement datasets from the Taito, a supercomputing cluster of the Finnish Center of Scientific Computing and also replicate our experiments on Amazon EC2. Our results illustrate different aspects of RAPL and document the findings through comprehensive analysis. Our observations reveal that RAPL readings are highly correlated with plug power, promisingly accurate enough, and have negligible performance overhead. Experimental results suggest RAPL can be a very useful tool to measure and monitor the energy consumption of servers without deploying any complex power meters. We also show that there are still some open issues, such as driver support, non-atomicity of register updates, and unpredictable timings that might weaken the usability of RAPL in certain scenarios. For such scenarios, we pinpoint solutions and workarounds.},
+journal = {ACM Trans. Model. Perform. Eval. Comput. Syst.},
+month = {mar},
+articleno = {9},
+numpages = {26},
+keywords = {power modeling, RAPL validation, RAPL accuracy, RAPL, DRAM power}
+}
